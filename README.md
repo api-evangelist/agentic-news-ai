@@ -1,4 +1,4 @@
-# agentic-news-ai
+# Agentic News
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentic-news-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentic-news.ai/
+Agentic News provides AI-powered news aggregation, delivering curated daily briefings from thousands of publishers. Their agents scan topics, filter out noise, and present concise summaries, allowing users to stay informed with minimal effort. The service offers a free trial and paid plans for unlimited agents and advanced features.
+
+**Areas:** AI · News · Aggregation · DailyBriefings · Agentic
+
+## Agentic News on APIs.io
+
+Everything profiled for Agentic News is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentic-news-ai/](https://apis.io/providers/agentic-news-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Agentic News Agents API](https://apis.io/apis/agentic-news-ai/agentic-news-ai-agents-api/) — Create and manage monitoring agents (watches). Each agent tracks a topic and automatically finds matching stories. Requires auth.
+- [Agentic News API Keys API](https://apis.io/apis/agentic-news-ai/agentic-news-ai-api-keys-api/) — Create, list, and revoke API keys for programmatic access. Keys use ak_ prefix with SHA-256 hashing. Requires JWT auth (web app session).
+- [Agentic News Briefing API](https://apis.io/apis/agentic-news-ai/agentic-news-ai-briefing-api/) — Your personalized daily news briefing based on your monitoring agents. Returns stories ranked by relevance with AI-generated hooks and briefs. Requires auth.
+- [Agentic News Feed API](https://apis.io/apis/agentic-news-ai/agentic-news-ai-feed-api/) — Your story feed with per-agent filtering, sorting by date/score/watch, read state tracking, and pagination. Use `watchId` to get stories for a specific…
+- [Agentic News Search API](https://apis.io/apis/agentic-news-ai/agentic-news-ai-search-api/) — Search recent news by meaning, not just keywords. Works without auth (3 results max) or with auth (up to 20 results). Rate limit: 30 req/min.
+- [Agentic News Stories API](https://apis.io/apis/agentic-news-ai/agentic-news-ai-stories-api/) — Full details of news story clusters including all source articles, topics, entities, and AI analysis. Requires auth.
+- [Agentic News Trending API](https://apis.io/apis/agentic-news-ai/agentic-news-ai-trending-api/) — Top trending news stories ranked by coverage volume. No authentication required.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentic News Ai Agentic Access](https://apis.io/agentic-access/agentic-news-ai/agentic-news-ai-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agentic News API Rules](https://apis.io/rules/agentic-news-ai/agentic-news-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentic News Ai Authentication](https://apis.io/security/agentic-news-ai/agentic-news-ai-authentication/)
+- [Agentic News Ai Domain Security](https://apis.io/security/agentic-news-ai/agentic-news-ai-domain-security/)
+- [Agentic News Ai Vulnerability Disclosure](https://apis.io/security/agentic-news-ai/agentic-news-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentic News Ai Plans Pricing](https://apis.io/plans/agentic-news-ai/agentic-news-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agentic News Ai Rate Limits](https://apis.io/rate-limits/agentic-news-ai/agentic-news-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentic-news.ai/)
+- [Getting started](https://agentic-news.ai/about)
+- [API reference](https://api.agentic-news.ai/docs)
+- [Pricing](https://agentic-news.ai/pricing)
+- [Sign up](https://agentic-news.ai/signup)
+- [Changelog](https://agentic-news.ai/changelog)
+- [Terms of service](https://agentic-news.ai/terms)
+- [Privacy policy](https://agentic-news.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.0** — strong · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 46.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 54.7 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 63.7 |
+
+**Agent readiness 49.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentic-news-ai/](https://apis.io/providers/agentic-news-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agentic News: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentic-news-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
