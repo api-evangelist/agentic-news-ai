@@ -66,7 +66,7 @@
 
 Agentic News provides AI-powered news aggregation, delivering curated daily briefings from thousands of publishers. Their agents scan topics, filter out noise, and present concise summaries, allowing users to stay informed with minimal effort. The service offers a free trial and paid plans for unlimited agents and advanced features.
 
-**Areas:** AI · News · Aggregation · DailyBriefings · Agentic
+**Areas:** Artificial Intelligence · News · Aggregation · Daily Briefings · AI Agents
 
 ## Agentic News on APIs.io
 
@@ -90,7 +90,7 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentic News Ai Agentic Access](https://apis.io/agentic-access/agentic-news-ai/agentic-news-ai-agentic-access/)
+- [Agentic News Agentic Access](https://apis.io/agentic-access/agentic-news-ai/agentic-news-ai-agentic-access/)
 
 #### Governance rules (1)
 
@@ -102,21 +102,21 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentic News Ai Authentication](https://apis.io/security/agentic-news-ai/agentic-news-ai-authentication/)
-- [Agentic News Ai Domain Security](https://apis.io/security/agentic-news-ai/agentic-news-ai-domain-security/)
-- [Agentic News Ai Vulnerability Disclosure](https://apis.io/security/agentic-news-ai/agentic-news-ai-vulnerability-disclosure/)
+- [Agentic News Authentication](https://apis.io/security/agentic-news-ai/agentic-news-ai-authentication/)
+- [Agentic News Domain Security](https://apis.io/security/agentic-news-ai/agentic-news-ai-domain-security/)
+- [Agentic News Vulnerability Disclosure](https://apis.io/security/agentic-news-ai/agentic-news-ai-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentic News Ai Plans Pricing](https://apis.io/plans/agentic-news-ai/agentic-news-ai-plans-pricing/)
+- [Agentic News Plans Pricing](https://apis.io/plans/agentic-news-ai/agentic-news-ai-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentic News Ai Rate Limits](https://apis.io/rate-limits/agentic-news-ai/agentic-news-ai-rate-limits/)
+- [Agentic News Rate Limits](https://apis.io/rate-limits/agentic-news-ai/agentic-news-ai-rate-limits/)
 
 ## Where to find this API
 
@@ -133,25 +133,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 57.0** — strong · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 52.1** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 46.4 |
-| Contract governance | 79.1 |
-| Operational transparency | 54.7 |
+| Discoverability | 83.9 |
+| Contract quality | 49.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 52.4 |
 | Developer ergonomics | 37.4 |
-| Access clarity | 63.7 |
+| Access clarity | 66.0 |
 
-**Agent readiness 49.5** — agent-ready (gated down from agent-native)
+**Agent readiness 41.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
@@ -170,6 +170,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
